@@ -1,0 +1,61 @@
+﻿ @{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/switch4.jpg" alt="ASP.NET" class="img-responsive"  />
+        </div>
+        <div class="item">
+            <img src="~/images/switch2.jpg" alt="Visual Studio" class="img-responsive" />
+        </div>
+        <div class="item">
+            <img src="~/images/switch5.jpg" alt="Microsoft Azure" class="img-responsive" style="width:740px"/>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<br />
+<div class="row" >
+
+    <div class="col-md-3" style="border:1px solid black;border-radius:5px;width:200px;height:190px;margin-left:15px;
+    margin-bottom:15px;box-shadow:5px 5px #888888">
+        <a asp-area="" asp-controller="Home" asp-action="Privacy">
+            <h3>Freestyle week Rogla</h3>
+        </a>
+        <p>
+            Nažalost bordanje koje se čeka cijelu sezonu na kojem je ekipa najnabrijanija i gdje se dešavaju najbolje 
+        </p>
+    </div>
+
+    <div class="col-md-3" style="border:1px solid black;border-radius:5px;width:200px;height:190px;margin-left:15px;
+    box-shadow:5px 5px #888888">
+       <a asp-area="" asp-controller="Home" asp-action="Kaprun">
+           <h3>Dobre vijesti</h3>
+       </a>
+       <p>
+           Bili smo družili se sa super ekipom. Imali lijepo vrijeme i puno snijega. Najvažnije od svega
+       </p>
+    </div>
+
+    <div class="col-md-3">
+       
+    </div>
+
+    <div class="col-md-3">
+        
+    </div>
+</div>
